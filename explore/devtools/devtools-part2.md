@@ -1,0 +1,2 @@
+1. The bug is that the type of result is "undefined", when it should be a number. For now, it simply takes in the two numbers as strings and just concatenates them. 
+2. To fix this bug, I modified the code by treating the value that the user enters as an int rather than a string by parsing as an int. 
